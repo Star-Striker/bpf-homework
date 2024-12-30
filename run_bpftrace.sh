@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 定义bpftrace脚本路径
+# 定义bpftrace脚本路径，可选opensnoop.bt/runqlen.bt/biosnoop.bt
 BPFTRACE_SCRIPT="./opensnoop.bt"
 # 定义日志文件路径
 LOG_FILE="bt.log"
